@@ -1,2 +1,2 @@
-# estudosJS
-Testes JavaScript
+# estudosHtmlCss
+Testes usando HTML e CSS
