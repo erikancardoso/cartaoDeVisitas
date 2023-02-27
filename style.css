@@ -28,6 +28,8 @@ section {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    padding: 24px;
+    gap: 32px;
 }
 div {
     display: flex;
@@ -35,8 +37,12 @@ div {
     align-items: center;
     justify-content: space-around;
 }
+
 p {
     font-weight: 300;
     font-size: 20px;
     color:#edf1f5;
+}
+footer {
+
 }
