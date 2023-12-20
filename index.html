@@ -1,71 +1,57 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-compatible" content="IE=edge">
-        <meta name="viewport" content="width=divice-width,initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/2.3.0/css/reset.min.css"> <!--reset font conf atual-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
-         crossorigin="anonymous" referrerpolicy="no-referrer"/> <!--biblioteca de fonte-->
-        <link rel="stylesheet" href="style.css"> <!--lincar com css para estilizar--> 
-        <script src="script.js"></script>
-        <title>Portifólio</title>
-    </head>
-    <body>
-        <main>
-            <section class="perfil">
-                <figure>
-                    <img src="https://avatars.githubusercontent.com/u/69882736?s=400&u=d02cb3d56e1442b304c0cef16c0805a46c0bf2e1&v=4" alt="">
-                    <figcaption>@erikancardoso</figcaption>
-                </figure>
-                <div>
-                    <p class="texto-apresentação">Olá, Sou Erika Maria N Cardoso, <strong> Analista e Desenvolvedora de Sistemas.</strong> 
-                    Este é o meu Portifólio de projetos pessoais desenvolvidos apartir de propostas reais e estudos de casos com o objetivo 
-                    mostrar um pouco das habilidades que venho adquirindo com o passar do tempo, estou sempre atualizando meus conhecimentos
-                    e conhecendo novas tecnicas e ferramentas de tecnologia para acompanhar o que há de melhor no mercado em solução, espero 
-                    que tenha uma boa experiência, Bem-Vindo terraqueo 🖖!</p>
-                </div>
-                <div style="display: inline_block"><br>                    
-                    <img align="center" alt="Js" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"/>        
-                    <img align="center" alt="HTML" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" />     
-                    <img align="center" alt="CSS"  height="50" width="60"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" />
-                    <img align="center" alt="JAVA" height="60" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />         
-                    <img align="center" alt="MYSQL" height="70" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />        
-                    <img align="center" alt="SPRING" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg"/>
-                </div>
-            </section>
-            <section class="projetos">       
-                <div>
-                    <iframe title="DashboardVendas" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiYzcyMzJlNjEtOTRlYS00NDBhLWEwN2ItYmIwMjk3YmJhMjQ3IiwidCI6IjNmN2IwYWQzLTdmNGEtNDdlMS04YjlkLWE5M2ZjYjVhMTExMyJ9&pageName=ReportSectiond94ad12410c583416068" frameborder="0" allowFullScreen="true"></iframe>
-                </div> 
-                <div> <p> Dashboard de Analise dados extraídos apartir de uma planilha Excel 
-                    contendo informações gerais de um relatório de vendas de uma empresa ficticia do setor de varejo de 
-                    eletronicos no Brasil. Esse projeto foi desenvolvido em um curso online da Hastag.
-                </p></div>
-  
-            </section>
-        </main>
-        <footer class="contatos">  
-            <hr>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 col-sm-6 col-xs-12">
-              <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
-           <a href="https://github.com/erikancardoso">Dev Erika Cardoso</a>.
-              </p>
-            </div>
-  
-            <div class="col-md-4 col-sm-6 col-xs-12">
-              <ul class="social-icons">
-                <li><a class="github" href="https://github.com/erikancardoso"><i class="fa-brands fa-github"></i></a></li>
-                <li><a class="Whatsapp" href="https://wa.me/5595981245232"><i class="fa-brands fa-whatsapp"></i></a></li>
-                <li><a class="linkedin" href="https://www.linkedin.com/in/erikancardoso/"><i class="fa-brands fa-linkedin"></i></a></li>   
-              </ul>
-            </div>
-          </div>
-        </div>  
-        </footer>
-    </body>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/d37c5443c6.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <div class="container centered">
+    <header class="perfil">
+      <img src="https://avatars.githubusercontent.com/u/69882736?v=4" alt="">
+      <div class="title">
+        <h1>Erika Cardoso</h1>
+        <h3>systems analyst and developer</h3>
+        <p> #Java #JavaScript #Php</p>
+
+        <!-- Icons -->
+        <a title="Codepen" class="link-icon" target="_blank" href="https://codepen.io/erikancardoso">
+          <i class="fab fa-codepen"></i>
+        </a>
+
+        <a title="GitHub" class="link-icon" target="_blank" href="https://github.com/erikancardoso">
+          <i class="fab fa-github-square"></i>
+        </a>
+
+        <a title="Linkedin" class="link-icon" target="_blank" href="https://www.linkedin.com/in/erikancardoso/">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+    </header>
+
+    <!-- estrutura do projeto -->
+    <main class="projetos">
+      <div class="container-projetos">
+        <h4>Projects</h4>
+        <p class="line-1 anim-typewriter">"... those imagine anything, can create the imposible!"</p>
+        <ol>
+          <li><a href="https://codepen.io/erikancardoso/pen/Exbqgjw" target="_blank"> 🔢 Average Calculator</a></li>
+          <li><a href="https://codepen.io/erikancardoso/pen/RwxbPwb" target="_blank"> 💰 Currency Converter</a></li>
+          <li><a href="https://codepen.io/erikancardoso/pen/PoEZdXK" target="_blank"> 🎬 AluraFlix</a></li>
+          <li><a href="https://codepen.io/erikancardoso/pen/PoEwVQY" target="_blank"> 🃏 Mentalista</a></li>
+        </ol>
+      </div>
+
+    </main>
+  </div>
+  <!-- Script -->
+  <script src="app.js"></script>
+</body>
+
 </html>
